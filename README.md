@@ -1,1 +1,1 @@
-# weather_app_prac
+# react_app_prac
