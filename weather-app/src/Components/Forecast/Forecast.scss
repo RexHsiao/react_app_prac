@@ -1,0 +1,31 @@
+@import '../../Styles.scss';
+.forecastBox{
+    border-radius: $main-border-radius;
+    --webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    background-color: $bg-color--card;
+    color: $main-text--color;
+    width: 85%;
+    max-width: 675px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+.col{
+    padding:0;
+    margin: 0 auto;
+}
+
+.card{
+    background-color:transparent;
+    position: relative;
+    
+}

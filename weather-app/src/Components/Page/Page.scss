@@ -1,0 +1,15 @@
+@import '../../Styles.scss';
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: $main-border-radius;
+    --webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    background-color: $bg-color--card;
+    color: $main-text--color;
+    width: 85%;
+    max-width: 675px;
+    min-height: 300px;
+}

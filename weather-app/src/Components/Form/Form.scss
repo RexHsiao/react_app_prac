@@ -1,0 +1,25 @@
+@import '../../Styles.scss';
+
+form{
+    display: block;
+}
+
+.input, .button{
+    padding: 2%;
+    border-radius: $secondary-border-radius;
+    border: none;
+    font-size:16px;
+    font-weight: bold;
+    height: 45px;
+}
+
+.input{
+    margin-bottom: 15px;  
+}
+
+.button{
+    width: 270px;
+    height: 45px;
+    background-image: $gradient;
+    color:$main-text--color;
+}
